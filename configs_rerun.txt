@@ -1,0 +1,11 @@
+--exp-name r_stack32_lam0.9 --gae-lambda 0.9 --frame-stack 32 --eval-every 160
+--exp-name r_stack8_lam0.9 --gae-lambda 0.9 --frame-stack 8 --eval-every 160
+--exp-name r_hc_velonly_lam0.9_skip4 --env-id HalfCheetah-v4 --velocity-only 1 --gae-lambda 0.9 --frame-skip 4 --eval-every 160
+--exp-name r_hc_velonly_lam0.99_skip4 --env-id HalfCheetah-v4 --velocity-only 1 --gae-lambda 0.99 --frame-skip 4 --eval-every 160
+--exp-name r_asym_white003_lam0.0 --asym-critic white --rb 0.009 --gae-lambda 0.0 --eval-every 160
+--exp-name r_asym_ar003_lam0.0 --asym-critic ar --rb 0.009 --gae-lambda 0.0 --eval-every 160
+--exp-name r_asym_white003_lam0.0_np --asym-critic white --rb 0.009 --gae-lambda 0.0 --num-envs 64 --num-steps 256 --eval-every 20
+--exp-name r_fixsig_lam0.9 --gae-lambda 0.9 --fixed-sigma 0.09 --eval-every 160
+--exp-name r_fixsig_lam0.95 --gae-lambda 0.95 --fixed-sigma 0.09 --eval-every 160
+--exp-name r_fixsig_lam0.99 --gae-lambda 0.99 --fixed-sigma 0.09 --eval-every 160
+--exp-name r_fixsig_lam0.999 --gae-lambda 0.999 --fixed-sigma 0.09 --eval-every 160

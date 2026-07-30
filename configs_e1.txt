@@ -1,0 +1,6 @@
+--exp-name e1_ml_lam0.9 --gae-lambda 0.9
+--exp-name e1_ml_lam1.0 --gae-lambda 1.0
+--exp-name e1_stack32_lam0.9 --gae-lambda 0.9 --frame-stack 32
+--exp-name e1_lamsweep_0.95 --gae-lambda 0.95
+--exp-name e1_lamsweep_0.99 --gae-lambda 0.99
+--exp-name e1_lamsweep_0.999 --gae-lambda 0.999

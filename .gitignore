@@ -1,0 +1,38 @@
+# local validation environment (never on Myriad; recreated by setup_myriad.sh there)
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# training checkpoints / scratch outputs
+*.npz
+*.pt
+smoke.jsonl
+/curves_*.csv
+
+# local run outputs (keep results/ tracked; ignore stray top-level result dumps)
+/results_*.jsonl
+/logs/
+
+# LaTeX build artifacts (regenerable from report.tex; keep .tex and .pdf)
+report/*.aux
+report/*.log
+report/*.out
+report/*.synctex.gz
+
+# internal working notes / dev-process artifacts (kept locally, excluded from the published repo)
+/VALIDATION.md
+/round3-harness-changelog.md
+/round3-harness-provenance.md
+/report-revision-manifest.md
+/report-framing-note.md
+/round3-plan.md
+/e4b-prediction-scaffold.md
+/scripts/commit_round3.sh
+/scripts/ship_to_myriad.sh
+
+# superseded notebook backups (canonical formal_proofs.ipynb + empirical_evidence.ipynb are tracked)
+/theorem/empirical_evidence.backup-0705-1623.ipynb
+/theorem/formal_proofs.audit-backup-0705-1652.ipynb
+/theorem/formal_proofs.backup-1823.ipynb

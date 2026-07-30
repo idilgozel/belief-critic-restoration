@@ -1,0 +1,8 @@
+--exp-name e3_asym_clean_lam0.9 --asym-critic clean --gae-lambda 0.9
+--exp-name e3_asym_white003_lam0.9 --asym-critic white --rb 0.009 --gae-lambda 0.9
+--exp-name e3_asym_ar003_lam0.9 --asym-critic ar --rb 0.009 --gae-lambda 0.9
+--exp-name e3_asym_white03_lam0.9 --asym-critic white --rb 0.09 --gae-lambda 0.9
+--exp-name e3_asym_ar03_lam0.9 --asym-critic ar --rb 0.09 --gae-lambda 0.9
+--exp-name e3_asym_clean_lam0.0 --asym-critic clean --gae-lambda 0.0
+--exp-name e3_asym_white003_lam0.0 --asym-critic white --rb 0.009 --gae-lambda 0.0
+--exp-name e3_asym_ar003_lam0.0 --asym-critic ar --rb 0.009 --gae-lambda 0.0

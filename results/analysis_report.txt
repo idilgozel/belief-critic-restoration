@@ -1,0 +1,35 @@
+experiment                    n  J/ret (med) gain/|a| (med)
+e1_lamsweep_0.95              5 0.26378032695250675 1.6731788024681842
+e1_lamsweep_0.99              5 0.23378459451413733 1.453918631670785
+e1_lamsweep_0.999             5 0.22789516232361182 1.4799575402154197
+e1_ml_lam0.9                  5 0.3175380189522208 7.0616876541327835
+e1_ml_lam1.0                  5 0.2250800841221332 1.4863346522817316
+e1_stack32_lam0.9             5 0.3164511823306146 13.853022489037393
+e2_hc_full_lam0.9             5 1827.5831891839819 1.7448956657722592
+e2_hc_full_lam0.99            5 1378.224550759444 1.7731583333730698
+e2_hc_velonly_lam0.9          5 1852.8979816688418 1.6680350719496608
+e2_hc_velonly_lam0.99         5 772.8758927371116 2.0319005246415736
+e2_hc_velonly_lam0.99_skip4   5 772.8758927371116 2.0319005246415736
+e2_hc_velonly_lam0.9_skip4    5 1852.8979816688418 1.6680350719496608
+e2_w2_full_lam0.9             5 2367.8385714941323 3.3446399979412558
+e2_w2_full_lam0.99            5 869.9453637201078 3.612399560697377
+e2_w2_velonly_lam0.9          5 560.1005346547079 3.818107925069332
+e2_w2_velonly_lam0.99         5 1031.935777215168 3.4521892677098514
+e3_asym_ar003_lam0.0          5 0.23449283149044428 1.3045565174389675
+e3_asym_ar003_lam0.9          5 0.2298065858871998 1.3494737945251143
+e3_asym_ar03_lam0.9           5 0.22852892686564089 1.6069781817777482
+e3_asym_clean_lam0.0          5 0.2524498838776674 0.8110158597400188
+e3_asym_clean_lam0.9          5 0.23222666619649876 1.0134591566115243
+e3_asym_white003_lam0.0       5 0.22875823557605252 2.4901195287429014
+e3_asym_white003_lam0.9       5 0.2212336565656357 1.4736991666883774
+e3_asym_white03_lam0.9        5 0.23598249549343983 2.947821758126864
+
+--- pre-registered gates ---
+[FAIL] E1.1 memoryless lam=.9 plateaus in [0.26,0.31], gain>5
+[PASS] E1.2 lam=1.0 no inflation (gain in [0.5,3], J<=0.24)
+[FAIL] E1.3 stack32 J<=0.23
+[FAIL] E1.4 J decreases along lam sweep, big drop after 0.95
+[FAIL] E2.1 HalfCheetah: lam-benefit on PO >= 3x full-obs
+[PASS] E2.1 Walker2d: lam-benefit on PO >= 3x full-obs
+[PASS] E3 lam=.9: both restore at Rb=0.03*Szz (gains<3.5)
+[FAIL] E3 lam=0: white ruins (gain>6), AR restores (gain<3)

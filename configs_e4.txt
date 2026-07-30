@@ -1,0 +1,4 @@
+--exp-name e4_stack32_fixsig_lam0.9 --gae-lambda 0.9 --frame-stack 32 --fix-sigma 0.09
+--exp-name e4_stack32_learned_lam0.9 --gae-lambda 0.9 --frame-stack 32
+--exp-name e4_stack32_fixsig_lam0.99 --gae-lambda 0.99 --frame-stack 32 --fix-sigma 0.09
+--exp-name e4_stack32_fixsig_lam0.9_lr4 --gae-lambda 0.9 --frame-stack 32 --fix-sigma 0.09 --lr 7.5e-5

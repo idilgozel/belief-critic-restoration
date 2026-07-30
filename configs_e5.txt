@@ -1,0 +1,5 @@
+--exp-name e5_lstmcritic_lam0.9 --gae-lambda 0.9 --critic-arch lstm
+--exp-name e5_lstmcritic_fixsig_lam0.9 --gae-lambda 0.9 --critic-arch lstm --fix-sigma 0.09
+--exp-name e5_recurrent_lam0.9 --gae-lambda 0.9 --critic-arch lstm --actor-arch lstm
+--exp-name e5_lstmcritic_lam0.99 --gae-lambda 0.99 --critic-arch lstm
+--exp-name e5_recurrent_lam0.99 --gae-lambda 0.99 --critic-arch lstm --actor-arch lstm

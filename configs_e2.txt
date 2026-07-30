@@ -1,0 +1,10 @@
+--exp-name e2_hc_velonly_lam0.9 --env-id HalfCheetah-v4 --velocity-only 1 --gae-lambda 0.9
+--exp-name e2_hc_velonly_lam0.99 --env-id HalfCheetah-v4 --velocity-only 1 --gae-lambda 0.99
+--exp-name e2_hc_full_lam0.9 --env-id HalfCheetah-v4 --gae-lambda 0.9
+--exp-name e2_hc_full_lam0.99 --env-id HalfCheetah-v4 --gae-lambda 0.99
+--exp-name e2_w2_velonly_lam0.9 --env-id Walker2d-v4 --velocity-only 1 --gae-lambda 0.9
+--exp-name e2_w2_velonly_lam0.99 --env-id Walker2d-v4 --velocity-only 1 --gae-lambda 0.99
+--exp-name e2_w2_full_lam0.9 --env-id Walker2d-v4 --gae-lambda 0.9
+--exp-name e2_w2_full_lam0.99 --env-id Walker2d-v4 --gae-lambda 0.99
+--exp-name e2_hc_velonly_lam0.9_skip4 --env-id HalfCheetah-v4 --velocity-only 1 --gae-lambda 0.9 --frame-skip 4
+--exp-name e2_hc_velonly_lam0.99_skip4 --env-id HalfCheetah-v4 --velocity-only 1 --gae-lambda 0.99 --frame-skip 4

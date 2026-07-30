@@ -1,0 +1,4 @@
+--exp-name e4b_stack32_pin0.001_lam0.9 --gae-lambda 0.9 --frame-stack 32 --fix-sigma 0.001
+--exp-name e4b_stack32_pin0.003_lam0.9 --gae-lambda 0.9 --frame-stack 32 --fix-sigma 0.003
+--exp-name e4b_stack32_pin0.01_lam0.9  --gae-lambda 0.9 --frame-stack 32 --fix-sigma 0.01
+--exp-name e4b_stack32_pin0.03_lam0.9  --gae-lambda 0.9 --frame-stack 32 --fix-sigma 0.03
